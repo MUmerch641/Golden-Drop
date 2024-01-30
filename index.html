@@ -1,1 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <link rel="icon" href="favicon.png">
+  <!-- <link rel="stylesheet" href="https://www.flaticon.com/free-icons/honeyk"> -->
+  <!-- <a href="https://www.flaticon.com/free-icons/honey" title="honey icons">Honey icons created by Freepik - Flaticon</a> -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .text-overlay h1 {
+      font-size: 3rem;
+      white-space: nowrap;
+    }
+
+    .video-container {
+      position: relative;
+      width: 100%;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+    }
+
+    .text-overlay h1:hover {
+      -webkit-text-stroke: 1.5px orange;
+      color: transparent;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 34%;
+      left: 50%;
+      line-height: 40px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: rgba(255, 255, 255, 0.486);
+      /* Adjust text color for visibility */
+    }
+
+    /* @media screen and (min-width:px{
+    
+  } */
+
+    .d {
+      color: aliceblue;
+      font-size: 1.6rem;
+      color: orange;
+    }
+
+    @media screen and (max-width: 600px) {
+
+      .text-overlay {
+        line-height: 10px;
+      }
+
+      .text-overlay h1 {
+        font-size: 0.90rem;
+        white-space: nowrap;
+      }
+
+      .text-overlay p {
+        font-size: 0.40rem;
+        margin-bottom: 1.5px;
+      }
+
+      nav img {
+        height: 20px;
+        width: 20px;
+      }
+
+      nav .d {
+        font-size: 0.50rem;
+      }
+
+      #btn {
+        font-size: 0.50rem;
+        padding: 0.4rem;
+        width: 50%;
+        background-color: rgba(255, 166, 0, 0.459);
+        color: rgba(240, 248, 255, 0.699);
+        border: 2px solid rgb(61, 61, 61);
+      }
+
+      #btn:active {
+        color: black;
+      }
+
+      #btn:hover {
+        color: black;
+      }
+
+      #Login .content h1 {
+        margin-top: 48px;
+        font-size: 25px;
+      }
+
+      #Login .content span {
+        color: #ff7200;
+        font-size: 35px
+      }
+    }
+
+    @media screen and (max-width:225px) {
+      #Products h2 {
+        font-size: 0.2rem;
+      }
+    }
+  </style>
+
+  <title>Golden Drops producing with Merlion Naturals</title>
+
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+    
+      <input type="checkbox" id="checkbtn">
+      <label for="checkbtn" class="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+      <div class="bar">
+      <div class="d"><img src="favicon.png" alt="error">Golden Drops</div>
+    </div>
+      <ul>
+        <li><a href="#Products">Products</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#Login">Login</a></li>
+        <div id="p">For Natural healthfulness</div>
+        <li><a href=""></a></li>
+      </ul>
+
+
+    </nav>
+  </header>
+  <main>
+    <div class="video-container">
+      <video src="Raw_Honey___Merlion_Naturals___Product_Commercial___Cinematic_Lighting(1080p).mp4" loop muted autoplay
+        preload="auto"></video>
+      <div class="text-overlay">
+        <h1>Welcome! to Golden Drops</h1>
+        <p class="ass">Assosiated with Merlion Naturals</p>
+        <button id="btn">Explore more!</button>
+      </div>
+    </div>
+    <div class="linecon">
+      <div id="line"></div>
+    </div>
+    <!-- <dEv class="Welcome">
+        <p>Welcome! to Golden Drops</p>
+        <p>producing with Merlion Naturals</p>
+      </div> -->
+    <section id="Products">
+      <h2>Today top products!</h2>
+      <div class="container">
+        <div class="pic"> </div>
+        <div class="pic" id="pic1" style="background-image: url('Clover-Honey-3-600x600.webp');"></div>
+        <div class="para">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.<button> Click to Buy </button></p>
+        </div>
+        <div class="para1">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.<button> Click to Buy </button></p>
+        </div>
+
+        <div class="pic" style="background-image: url('Flora-Honey-4-600x600.webp');"></div>
+        <div class="pic" id="pic1" style="background-image: url('Eucalyptus-Honey-3-600x600.webp');"></div>
+        <div class="para">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.<button> Click to Buy </button></p>
+        </div>
+        <div class="para1">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.<button> Click to Buy </button></p>
+        </div>
+
+
+        <div class="pic" style="background-image: url('Mountaine-Forest-Honey-2-600x600.webp');"></div>
+        <div class="pic" id="pic1" style="background-image: url('Orange-Blossom-small-600x600.jpg');"></div>
+        <div class="para">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.<button> Click to Buy </button></p>
+        </div>
+        <div class="para1">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.<button> Click to Buy </button></p>
+        </div>
+
+        <div class="pic" style="background-image: url('premium-nuts-with-raw-honey-600x600.jpg');"></div>
+        <div class="pic" id="pic1" style="background-image: url('Robinia-Honey-3-600x600.webp');"></div>
+        <div class="para">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.<button> Click to Buy </button></p>
+        </div>
+        <div class="para1">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.<button> Click to Buy </button></p>
+        </div>
+
+        <div class="pic" style="background-image: url('Sidr-Honey-3-600x600.webp');"></div>
+        <div class="pic" id="pic1" style="background-image: url('Website-Product-Sidr-Honey--600x600.jpg');"></div>
+        <div class="para">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.<button> Click to Buy </button></p>
+        </div>
+        <div class="para1">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.<button> Click to Buy </button></p>
+        </div>
+
+        <div class="pic" style="background-image: url('Wild-Honey-3-600x600.webp');"></div>
+        <div class="para2">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.</p>
+        </div>
+        <div class="para">
+          <p>Fruit spreads, more commonly called as jams enjoy almost a permanent slot on our breakfast menus. They are
+            soft, juicy, delicious, easy to apply and make anything delicious, instantly. The only thing they lack is
+            the health.<button> Click to Buy </button></p>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section id="about">
+      <h1>About me</h1>
+      <div class="about">
+        <div class="abt">
+          <p>
+            As we are surving honey since 1920 our
+            first shop was in UK london and it was our
+            little shop the author of this shop was james
+            the grandfather of today author akhil he start
+            his because of his financial problem but he can't
+            recognize it's big succes now we are surving honey
+            in 180 contries worlwide which was an huge succes only
+            because of james and the employs in our shopes are 20
+            millon and above and we surving honey now adays too we
+            are the world biggest honey shope only bacause of our customer
+            love now our first shope of also in london for historic memony
+            as show in pic wi some changes because because everyone 🖤honey...
+          </p>
+        </div>
+
+        <div class="abtpic">
+
+        </div>
+      </div>
+    </section>
+    <br>
+    <section>
+      <div id="contact">
+        <section id="Login">
+          <!-- <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Golden Drops</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div> -->
+
+          <!-- <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div>  -->
+          <div class="containee">
+            <div class="content">
+              <h1>Golden Drops Assosiated with<br><span id="spn">Merlion </span> <br>Naturals</h1>
+              <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque
+                expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus
+                <br> a quae totam ipsa illum minus laudantium?
+              </p>
+
+              <button class="cn"><a href="#">Order now!</a></button>
+            </div>
+            <div class="form">
+              <h2>Login Here</h2>
+              <input type="email" name="email" placeholder="Enter Email Here">
+              <input type="password" name="" placeholder="Enter Password Here">
+              <button class="btnn"><a href="#">Login</a></button>
+
+              <p class="link" style="color: aliceblue;">Don't have an account<br>
+                <a href="#">Sign up </a> here</a>
+              </p>
+              <p class="liw" style="color: aliceblue;">Log in with</p>
+
+              <span class="icons">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon>facebook</a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon>instagram</a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon>twitter</a>
+                <a href="#"><ion-icon name="logo-google"></ion-icon>google</a>
+                <a href="#"><ion-icon name="logo-skype"></ion-icon>skype</a>
+              </span>
+            </div>
+          </div>
+          <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
+  <script src="js/script.js"></script>
+  <div class="arrow">
+    <a href="#navbar">⬆</a>
+  </div>
+
+
+  <footer>
+    <div class="foot">
+      <div class="one">
+        <h3>Company</h3>
+        <p>About</p>
+        <p>Help</p>
+        <p>Careers</p>
+        <p>News</p>
+        <p>Blog</p>
+        <p>Media</p>
+      </div>
+
+      <div class="two">
+        <h3>Product</h3>
+        <p>Drop list</p>
+        <p>Amazon badge</p>
+        <p>Honey Gold</p>
+        <p>For Affilates</p>
+        <p>Sitemap</p>
+      </div>
+
+      <div class="three">
+        <h3>Product</h3>
+        <p>Drop list</p>
+        <p>Amazon badge</p>
+        <p>Honey Gold</p>
+        <p>For Affilates</p>
+        <p>Sitemap</p>
+      </div>
+
+      <div class="four">
+        <h3>Follow us</h3>
+        <p>Instagram</p>
+        <p>Twitter</p>
+        <p>facebook</p>
+        <p>Youtube</p>
+      </div>
+      <div class="getapp">
+        <h3>Get the app</h3>
+        <img src="f1.png" alt="error" height="50" width="150">
+        <br>
+        <img src="f2.png" alt="error" height="50" width="150">
+      </div>
+
+  </footer>
+  <div id="Umer">
+    <a href="/index.html">@created and design Umer</a>
+  </div>
+  </div>
+  <script>
+    
+</script>
+</body>
+
+</html>
