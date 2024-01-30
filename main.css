@@ -1,0 +1,1001 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-overlay h1 {
+    font-size: 3rem;
+    white-space: nowrap;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay h1:hover {
+    -webkit-text-stroke: 1.5px orange;
+    color: transparent;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    line-height: 40px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.486);
+    /* Adjust text color for visibility */
+}
+
+/* @media screen and (min-width:px{
+    
+  } */
+
+.d {
+    color: aliceblue;
+    font-size: 1.6rem;
+    color: orange;
+}
+
+@media screen and (max-width: 600px) {
+
+    .text-overlay {
+        line-height: 10px;
+    }
+
+    .text-overlay h1 {
+        font-size: 0.90rem;
+        white-space: nowrap;
+    }
+
+    .text-overlay p {
+        font-size: 0.40rem;
+        margin-bottom: 1.5px;
+    }
+
+    nav img {
+        height: 20px;
+        width: 20px;
+    }
+
+    nav .d {
+        font-size: 0.50rem;
+    }
+
+    #btn {
+        font-size: 0.50rem;
+        padding: 0.4rem;
+        width: 50%;
+        background-color: rgba(255, 166, 0, 0.459);
+        color: rgba(240, 248, 255, 0.699);
+        border: 2px solid rgb(61, 61, 61);
+    }
+
+    #btn:active {
+        color: black;
+    }
+
+    #btn:hover {
+        color: black;
+    }
+
+    #Login .content h1 {
+        margin-top: 48px;
+        font-size: 25px;
+    }
+
+    #Login .content span {
+        color: #ff7200;
+        font-size: 35px
+    }
+}
+
+@media screen and (max-width:225px) {
+    #Products h2 {
+        font-size: 0.2rem;
+    }
+}
+
+
+
+
+
+body {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    background-color: rgb(238, 238, 238);
+
+}
+
+button {
+    transition: all ease 0.2s;
+    /* position: relative; */
+}
+
+/* span {
+    background-color: #ff5100;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+button:hover span{ */
+
+
+
+button:active {
+    scale: 0.9;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #fc915fb2;
+    border-radius: 25px;
+}
+
+nav img {
+    height: 40px;
+    width: 40px;
+    color: aliceblue;
+}
+
+/* .vid {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+*/
+.Welcome p {
+    padding: 1rem;
+    display: inline-block;
+    position: relative;
+    font-size: 3.6rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(92, 92, 92, 0.473);
+    bottom: 620px;
+    left: 350px;
+    border-radius: 20px;
+}
+
+
+
+nav {
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    padding: 1rem;
+    z-index: 1;
+}
+
+@media screen and (max-width:379px) {
+    nav {
+        padding: 0.5rem;
+    }
+}
+
+/* nav h1 {
+    font-size: 1rem;
+    color: orange;
+    white-space: nowrap;
+} */
+
+nav li a {
+    white-space: nowrap;
+    font-size: 100%;
+    margin-right: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out 0.2s;
+}
+
+nav li a:hover {
+    color: orange;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav div {
+    animation: style 1.50s ease-in-out 0s 1;
+}
+
+#p:hover {
+    -webkit-text-stroke: 0.30px rgb(255, 255, 255);
+    color: transparent;
+}
+
+#p {
+    color: orange;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+@media screen and (max-width:570px) {
+    #p {
+        display: none;
+    }
+}
+
+@media screen and (max-width:613px) {
+
+    #p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:813px) {
+    #p {
+        font-size: 1.5rem;
+    }
+}
+
+@keyframes style {
+    from {
+        transform: translate(-300px);
+    }
+
+    to {
+        transform: translate(0px);
+    }
+}
+
+li {
+    animation: animate 1.50s ease-in-out 0s 1;
+}
+
+@keyframes animate {
+    from {
+        transform: translate(-300px);
+    }
+
+    to {
+        transform: translate(0px);
+    }
+}
+
+
+@media screen and (max-width:493px) {
+    .text-overlay {
+        top: 56%;
+        left: 50%;
+    }
+
+    nav img {
+        height: 20px;
+        width: 60px;
+    }
+
+    nav div {
+        text-align: center;
+    }
+
+    nav li a {
+        font-size: 50%;
+    }
+}
+
+.container {
+    max-width: 80vh;
+    max-width: 100vw;
+    background-color: rgb(255, 255, 255);
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 10px;
+}
+
+.container .pic {
+    border: 2px solid burlywood;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width:521px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.container .pic {
+    /* height: 30vh;
+    width: 20vw; */
+    height: 250px;
+    width: 250px;
+    transition: all 0.4s ease-in-out 0.3s;
+    background-size: cover;
+}
+
+.pic:first-child {
+    background-image: url('Acacia-Honey-4-600x600.webp');
+    background-size: cover;
+}
+
+@media screen and (max-width: 729px) {
+    .container .pic {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+/* @media screen and (max-width: 276px) {
+    #Products h2 {
+        font-size: ;
+        color: white;
+    }
+  } */
+
+#Products h2 {
+    background-color: burlywood;
+    text-align: center;
+    font-size: 1.70rem;
+    padding: 1rem;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+.container button {
+    height: 20px;
+    width: 100%;
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.712);
+    outline: none;
+    color: rgb(52, 52, 173);
+    border-radius: 7px;
+
+}
+
+.container button:active {
+    box-shadow: #ff5100 10px 13px 43px;
+    background-color: #fa8650ef;
+    color: rgb(0, 0, 0);
+}
+
+/* .container button:hover {
+    box-shadow: #ff5100 10px 13px 43px;
+    background-color: #fa8650ef;
+    color: rgb(0, 0, 0);
+  } */
+
+.pic:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:504px) {
+    text-overlay button {
+        width: 100%;
+        background-color: aqua;
+    }
+}
+
+#btn:hover {
+    background-color: rgba(255, 185, 55, 0.925);
+}
+
+#btn {
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 60%;
+    background-color: orange;
+}
+
+button:hover {
+    background-color: rgba(248, 212, 145, 0.712);
+    color: black;
+}
+
+.linecon {
+    position: absolute;
+    height: 100%;
+}
+
+#line {
+    top: -90%;
+    border-left: 5px;
+    position: relative;
+    height: 500px;
+    width: 7px;
+    background-color: orange;
+    box-shadow: 10px 0px 100px 20px #ff5100;
+}
+
+.para2 {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 730px) {
+    .container div:nth-child(even) {
+        display: none;
+    }
+
+    /* .video-container #btn {
+        display: none;
+     } */
+}
+
+.arrow {
+    background-color: orange;
+    color: lightcyan;
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+#Login {
+    width: 100%;
+    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#Login.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+#Login .icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+#Login .logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+}
+
+#Login .menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+#Login ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Login ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+#Login ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+#Login ul li a:hover {
+    color: #ff7200;
+}
+
+#Login .search {
+    width: 330px;
+    margin-top: 15px;
+}
+
+#Login .srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    float: left;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#Login .btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#Login .btn:hover {
+    color: #000;
+}
+
+#Login .btn:focus {
+    outline: none;
+}
+
+#Login .srch:focus {
+    outline: none;
+}
+
+#Login .containee {
+    background-image: url('honey.jpeg');
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: 85vh;
+}
+
+
+#Login .content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+#Login .content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    /* margin-top: 9%; */
+    letter-spacing: 2px;
+}
+
+#Login .content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+#Login .content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+#Login .cn:hover {
+    background-color: #fff;
+}
+
+#Login .content span {
+    color: #ff7200;
+    font-size: 65px
+}
+
+@media screen and (max-width:437px) {
+    #Login .containee {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+
+#Login .form {
+    width: 290px;
+    height: 480px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    /* position: absolute; */
+    border-radius: 10px;
+    padding: 25px;
+    display: grid;
+    justify-self: center;
+}
+
+#Login .form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+#Login .form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+#Login .form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+#Login .btnn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+#Login .btnn:hover {
+    background: #fff;
+    color: #ff7200;
+}
+
+#Login .btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#Login .form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#Login .form .link a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+#Login .liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#Login .icons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#Login .icons ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+#Login .icons ion-icon:hover {
+    color: #ff7200;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.abt {
+    width: 600px;
+}
+
+#about {
+    background-color: rgb(124, 100, 69);
+    color: white;
+}
+
+
+#about h1 {
+    text-align: center;
+    padding: 0.50rem;
+    font-style: italic;
+    color: orange;
+}
+
+#about .abt {
+    font-size: 1.4rem;
+    padding: 0.50rem;
+    text-align: center;
+}
+
+#about .abtpic {
+    padding: 0.50rem;
+    height: 400px;
+    width: 400px;
+    background-image: url('shop\ img.jpeg');
+    background-size: contain;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:657px) {
+    #about .abtpic {
+        height: 350px;
+        width: 400px;
+        background-size: cover;
+    }
+}
+
+
+
+@media screen and (max-width:564px) {
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:657px) {
+    #about .abt {
+        font-size: 1.2rem;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:558px) {
+    #about .abt {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:408px) {
+    #about .abt {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width:397px) {
+    #about .abtpic {
+        height: 250px;
+        width: 300px;
+        background-size: cover;
+    }
+}
+
+footer {
+    text-align: center;
+}
+
+
+.foot {
+    padding: 2.2rem;
+    line-height: 2.5rem;
+    background-color: #000;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot p {
+    color: grey;
+    cursor: pointer;
+}
+
+@media screen and (max-width:760px) {
+    .foot {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width:428px) {
+    .foot {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width:586px) {
+    footer {
+        margin-top: 200px;
+    }
+}
+
+
+@media screen and (max-width:328px) {
+    footer {
+        margin-top: 700px;
+    }
+}
+
+
+#Umer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+#Umer a {
+    color: antiquewhite;
+}
+
+.getapp img:active {
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+footer h3:hover {
+    color: orange;
+    transition: color 0.50s ease-in-out;
+}
+
+#checkbtn {
+    display: none;
+}
+
+#checkbtn,
+.icon {
+    z-index: 100;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+@media screen and (max-width:400px) {
+    .icon {
+        display: inline-block;
+    }
+
+    header {
+        position: absolute;
+        width: 100%;
+    }
+
+    ul {
+        /* display: flex;
+    background-color: #863d01c0;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: fixed; */
+        height: 50vh;
+        width: 50%;
+        /* position: fixed; */
+        position: relative;
+        left: -100%;
+        margin-right: 200px;
+        background-color: #863d01c0;
+        transition: all 0.5s;
+       
+    }
+    #checkbtn:checked ~ .icon i:before{
+        content: "\f00d";
+      }
+
+    #checkbtn:checked~ul {
+        left: 0;
+    }
+
+    ul li a {
+        padding: 1rem;
+        line-height: 60px;
+        font-size: 1.5rem;
+    }
+
+}
+
+
+.bar {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0);
+ }
+
+ .icon {
+     position: absolute;
+     top: 5px;
+     right: 10px;
+ }
+
+ .d {
+     position: relative;
+     top: 0;
+
+ }
+
+.icon {
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (min-width:401px) {
+    .icon {
+        display: none;
+    }
+}
+/* 
+@media screen and (min-width:350px) and (max-width:400px) {
+    .icon {
+        position: relative;
+        top: -185px;
+        right: -260px;
+    }
+
+    .d {
+        position: relative;
+        top: -185px;
+        right: -50px;
+    }
+} */
+
+ul li a:focus {
+    color: orange;
+}
+
+@media screen and (min-height:650px) and (max-height:667px) {
+    .containee .icons {
+        display: none;
+    }
+}
